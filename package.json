@@ -1,11 +1,13 @@
 {
-  "name": "default-dark-ui",
+  "name": "default-dark",
   "version": "3.0.0",
-  "theme": "ui",
+  "theme": true,
   "themeAppearance": "dark",
-  "description": "Default Dark UI Theme for Inkdrop",
+  "description": "Default Dark theme for Inkdrop",
   "styleSheets": [
-    "theme.css"
+    "ui.css",
+    "syntax.css",
+    "preview.css"
   ],
   "scripts": {
     "prepublishOnly": "./node_modules/.bin/generate-palette"
@@ -16,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inkdropapp/default-dark-ui.git"
+    "url": "git+https://github.com/inkdropapp/default-dark.git"
   },
   "author": "Takuya Matsuyama<t@inkdrop.app>",
   "license": "MIT",
