@@ -858,7 +858,7 @@
   "--scrollbar-width": "6px",
   "--scrollbar-track-background": "rgba(255, 255, 255, 0.02)",
   "--scrollbar-thumb-background": "rgba(255, 255, 255, 0.2)",
-  "--note-list-bar-background": "hsl(0deg 0% 9% / 50%)",
+  "--note-list-bar-background": "#111111",
   "--note-list-bar-border-right": "1px solid hsl(0deg 0% 15% / 75%)",
   "--note-list-bar-pinned-section-header-background": "hsl(0deg 0% 9%)",
   "--note-list-bar-pinned-section-header-border-bottom": "none",
