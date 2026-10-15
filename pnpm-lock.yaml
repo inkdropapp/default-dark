@@ -17,8 +17,8 @@ packages:
   '@inkdropapp/base-ui-theme@0.7.8':
     resolution: {integrity: sha512-s3O/MVfC4qvJ6Gr5lbUCn4X1hNfljH1VnbkRNj5G4QqtXFmChcmy/wcCnkrsBNtLJVClcAMk6XzTzbgYuyOVMA==}
 
-  '@inkdropapp/css@0.9.16':
-    resolution: {integrity: sha512-4FJvhXHyerCcUdt4fD5ONPEJR6iBlO5A3BJi0QMIrBmSWc0z/GBUrkRxqFNLxjDtRR83ePCJ5sHl3wdaXVaGIQ==}
+  '@inkdropapp/css@0.9.17':
+    resolution: {integrity: sha512-jNgcAPwm8BFDBBmPCJheUI3QL/EA10Z+fl9cVStcsK886tR76fern/T7QMIb5IG3mgg4BL8V/uhRIDcqzXxu1g==}
 
   '@inkdropapp/theme-dev-helpers@0.7.1':
     resolution: {integrity: sha512-pJPPIFruj5osLGiOro0/dIan1F1R7+O/UScgIOY6NDDZfwvCMcpDMhptXq7TVR349rgmnzu6TJmpYCqMFiWCUA==}
@@ -595,14 +595,14 @@ packages:
     resolution: {integrity: sha512-9OpKOLeaoNFecEp7P6iYbzze/5CqWoH7N3SMs/6y1XF4nMvFMspEGZzJ6uFi9MmQwXhyzqYoSEKO3tvA3Z/o2w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=23}
 
-  zod@4.6.5:
-    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
   '@inkdropapp/base-ui-theme@0.7.8': {}
 
-  '@inkdropapp/css@0.9.16':
+  '@inkdropapp/css@0.9.17':
     optionalDependencies:
       inkdrop-model: 3.0.1
     transitivePeerDependencies:
@@ -611,7 +611,7 @@ snapshots:
   '@inkdropapp/theme-dev-helpers@0.7.1':
     dependencies:
       '@inkdropapp/base-ui-theme': 0.7.8
-      '@inkdropapp/css': 0.9.16
+      '@inkdropapp/css': 0.9.17
       '@vitejs/plugin-react': 6.1.2(vite@8.3.4)
       commander: 15.0.0
       puppeteer: 25.13.0
@@ -769,7 +769,7 @@ snapshots:
     dependencies:
       devtools-protocol: 0.0.1696802
       mitt: 3.0.1
-      zod: 4.6.5
+      zod: 4.6.6
 
   cliui@9.0.1:
     dependencies:
@@ -1024,4 +1024,4 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 22.0.0
 
-  zod@4.6.5: {}
+  zod@4.6.6: {}
